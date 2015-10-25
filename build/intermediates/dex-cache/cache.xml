@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Users\oboenikui\workspace\SRPClientGradle\app\libs\srp-otp.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="984410bf5c51b97fe8f0c7040f46511b93e18e68">
+        <dex dex="D:\Users\oboenikui\workspace\SRPClientGradle\app\build\intermediates\pre-dexed\debug\srp-otp-ac100767d1e32e604cc2a9e1d58cd891f3d5b6d3.jar" />
+    </item>
+    <item
+        jar="D:\Users\oboenikui\Documents\adt-bundle-windows-x86_64-20131030\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\Users\oboenikui\workspace\SRPClientGradle\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-39d804ce1b86af363127ebeb3dbd26dc2d776ff8.jar" />
+    </item>
+    <item
+        jar="D:\Users\oboenikui\workspace\SRPClientGradle\app\libs\gnu-crypto.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eeb2b6eb39a8f496206bd9f56d0b2c009e914d01">
+        <dex dex="D:\Users\oboenikui\workspace\SRPClientGradle\app\build\intermediates\pre-dexed\debug\gnu-crypto-30a879e8657010dbcc352625b3626c24d878603a.jar" />
+    </item>
+
+</items>
