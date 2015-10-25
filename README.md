@@ -5,21 +5,21 @@ SRP OTPを用いたクライアントのサンプルです．
 表示されたTextViewの左から順に東北大ID，パスワード，イメージマトリクスを入力します．
 イメージマトリクスの文字列は，以下の表を参考にして下さい．
 
-|画像|名前||画像|名前|
-|:--:|:--:|-|:--:|:--:|
-|![notebook](https://dl.dropboxusercontent.com/u/89996208/srp_img/d01.gif)|d01.gif||![okame](https://dl.dropboxusercontent.com/u/89996208/srp_img/d14.gif)|d14.gif|
-|![camera](https://dl.dropboxusercontent.com/u/89996208/srp_img/d02.gif)|d02.gif||![oni](https://dl.dropboxusercontent.com/u/89996208/srp_img/d15.gif)|d15.gif|
-|![chair](https://dl.dropboxusercontent.com/u/89996208/srp_img/d03.gif)|d03.gif||![paint](https://dl.dropboxusercontent.com/u/89996208/srp_img/d16.gif)|d16.gif|
-|![cup](https://dl.dropboxusercontent.com/u/89996208/srp_img/d04.gif)|d04.gif||![pallet](https://dl.dropboxusercontent.com/u/89996208/srp_img/d17.gif)|d17.gif|
-|![fan](https://dl.dropboxusercontent.com/u/89996208/srp_img/d05.gif)|d05.gif||![pen](https://dl.dropboxusercontent.com/u/89996208/srp_img/d18.gif)|d18.gif|
-|![extinguisher](https://dl.dropboxusercontent.com/u/89996208/srp_img/d06.gif)|d06.gif||![pencil](https://dl.dropboxusercontent.com/u/89996208/srp_img/d19.gif)|d19.gif|
-|![scissor](https://dl.dropboxusercontent.com/u/89996208/srp_img/d07.gif)|d07.gif||![post](https://dl.dropboxusercontent.com/u/89996208/srp_img/d20.gif)|d20.gif|
-|![hyottoko](https://dl.dropboxusercontent.com/u/89996208/srp_img/d08.gif)|d08.gif||![shoes](https://dl.dropboxusercontent.com/u/89996208/srp_img/d21.gif)|d21.gif|
-|![kabuto](https://dl.dropboxusercontent.com/u/89996208/srp_img/d09.gif)|d09.gif||![light](https://dl.dropboxusercontent.com/u/89996208/srp_img/d22.gif)|d22.gif|
-|![fish](https://dl.dropboxusercontent.com/u/89996208/srp_img/d10.gif)|d10.gif||![sake](https://dl.dropboxusercontent.com/u/89996208/srp_img/d23.gif)|d23.gif|
-|![lamp](https://dl.dropboxusercontent.com/u/89996208/srp_img/d11.gif)|d11.gif||![usagimochi](https://dl.dropboxusercontent.com/u/89996208/srp_img/d24.gif)|d24.gif|
-|![moon](https://dl.dropboxusercontent.com/u/89996208/srp_img/d12.gif)|d12.gif||![violin](https://dl.dropboxusercontent.com/u/89996208/srp_img/d25.gif)|d25.gif|
-|![hat](https://dl.dropboxusercontent.com/u/89996208/srp_img/d13.gif)|d13.gif|
+|画像|名前|画像|名前|
+|:--:|:--:|:--:|:--:|
+|![notebook](https://dl.dropboxusercontent.com/u/89996208/srp_img/d01.gif)|d01.gif|![okame](https://dl.dropboxusercontent.com/u/89996208/srp_img/d14.gif)|d14.gif|
+|![camera](https://dl.dropboxusercontent.com/u/89996208/srp_img/d02.gif)|d02.gif|![oni](https://dl.dropboxusercontent.com/u/89996208/srp_img/d15.gif)|d15.gif|
+|![chair](https://dl.dropboxusercontent.com/u/89996208/srp_img/d03.gif)|d03.gif|![paint](https://dl.dropboxusercontent.com/u/89996208/srp_img/d16.gif)|d16.gif|
+|![cup](https://dl.dropboxusercontent.com/u/89996208/srp_img/d04.gif)|d04.gif|![pallet](https://dl.dropboxusercontent.com/u/89996208/srp_img/d17.gif)|d17.gif|
+|![fan](https://dl.dropboxusercontent.com/u/89996208/srp_img/d05.gif)|d05.gif|![pen](https://dl.dropboxusercontent.com/u/89996208/srp_img/d18.gif)|d18.gif|
+|![extinguisher](https://dl.dropboxusercontent.com/u/89996208/srp_img/d06.gif)|d06.gif|![pencil](https://dl.dropboxusercontent.com/u/89996208/srp_img/d19.gif)|d19.gif|
+|![scissor](https://dl.dropboxusercontent.com/u/89996208/srp_img/d07.gif)|d07.gif|![post](https://dl.dropboxusercontent.com/u/89996208/srp_img/d20.gif)|d20.gif|
+|![hyottoko](https://dl.dropboxusercontent.com/u/89996208/srp_img/d08.gif)|d08.gif|![shoes](https://dl.dropboxusercontent.com/u/89996208/srp_img/d21.gif)|d21.gif|
+|![kabuto](https://dl.dropboxusercontent.com/u/89996208/srp_img/d09.gif)|d09.gif|![light](https://dl.dropboxusercontent.com/u/89996208/srp_img/d22.gif)|d22.gif|
+|![fish](https://dl.dropboxusercontent.com/u/89996208/srp_img/d10.gif)|d10.gif|![sake](https://dl.dropboxusercontent.com/u/89996208/srp_img/d23.gif)|d23.gif|
+|![lamp](https://dl.dropboxusercontent.com/u/89996208/srp_img/d11.gif)|d11.gif|![usagimochi](https://dl.dropboxusercontent.com/u/89996208/srp_img/d24.gif)|d24.gif|
+|![moon](https://dl.dropboxusercontent.com/u/89996208/srp_img/d12.gif)|d12.gif|![violin](https://dl.dropboxusercontent.com/u/89996208/srp_img/d25.gif)|d25.gif|
+|![hat](https://dl.dropboxusercontent.com/u/89996208/srp_img/d13.gif)|d13.gif| | |
 
 もしイメージマトリクス認証が
 ![notebook](https://dl.dropboxusercontent.com/u/89996208/srp_img/d01.gif)→![camera](https://dl.dropboxusercontent.com/u/89996208/srp_img/d02.gif)→![chair](https://dl.dropboxusercontent.com/u/89996208/srp_img/d03.gif)
